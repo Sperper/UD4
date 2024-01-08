@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Libreria [
+    <!ELEMENT Libreria (libro*)>
+    <!ELEMENT libro (CodigoDeLibro, titulo, editorial, edicion, ISBN, NumeroDePaginas, autor)>
+    <!ELEMENT CodigoDeLibro (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT ISBN (#PCDATA)>
+    <!ELEMENT NumeroDePaginas (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+]>
+
+<Libreria>
+
+    <libro>
+        <CodigoDeLibro>9788420414065</CodigoDeLibro>
+        <titulo>La verdad sobre el caso Harry Quebert</titulo>
+        <editorial>ALFAGUARA</editorial>
+        <edicion>2013</edicion>
+        <ISBN>9788420414065</ISBN>
+        <NumeroDePaginas>672</NumeroDePaginas>
+        <autor>Joel Dicker</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788417854317</CodigoDeLibro>
+        <titulo>De sangre y cenizas</titulo>
+        <editorial>PUCK</editorial>
+        <edicion>2021</edicion>
+        <ISBN>9788417854317</ISBN>
+        <NumeroDePaginas>672</NumeroDePaginas>
+        <autor>Jennifer L. Armentrout</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788408284550</CodigoDeLibro>
+        <titulo>Alas de hierro</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <edicion>2024</edicion>
+        <ISBN>9788408284550</ISBN>
+        <NumeroDePaginas>896</NumeroDePaginas>
+        <autor>Rebecca Yarros</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788466676564</CodigoDeLibro>
+        <titulo>Maldita roma (Serie julio cesar 2)</titulo>
+        <editorial>EDICIONES B</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788466676564</ISBN>
+        <NumeroDePaginas>896</NumeroDePaginas>
+        <autor>Santiago Posteguillo</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788420476599</CodigoDeLibro>
+        <titulo>Le dedico mi silencio</titulo>
+        <editorial>ALFAGUARA</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788420476599</ISBN>
+        <NumeroDePaginas>312</NumeroDePaginas>
+        <autor>Mario Vargas Llosa</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788401031113</CodigoDeLibro>
+        <titulo>Holly</titulo>
+        <editorial>PLAZA and JANES EDITORES</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788401031113</ISBN>
+        <NumeroDePaginas>624</NumeroDePaginas>
+        <autor>Stephen King</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788420476360</CodigoDeLibro>
+        <titulo>El problema final</titulo>
+        <editorial>ALFAGUARA</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788420476360</ISBN>
+        <NumeroDePaginas>328</NumeroDePaginas>
+        <autor>Arturo Perez Reverte</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788408279259</CodigoDeLibro>
+        <titulo>Cocina de 10 con Karlos Arguiñano</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788408279259</ISBN>
+        <NumeroDePaginas>704</NumeroDePaginas>
+        <autor>Karlos Arguiñano</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788408280507</CodigoDeLibro>
+        <titulo>Detras del ruido</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788408280507</ISBN>
+        <NumeroDePaginas>256</NumeroDePaginas>
+        <autor>Angel Martin</autor>
+    </libro>
+
+    <libro>
+        <CodigoDeLibro>9788411002233</CodigoDeLibro>
+        <titulo>Tierra firme</titulo>
+        <editorial>Ediciones Peninsula</editorial>
+        <edicion>2023</edicion>
+        <ISBN>9788411002233</ISBN>
+        <NumeroDePaginas>384</NumeroDePaginas>
+        <autor>Pedro Sanchez Perez Castejon</autor>
+    </libro>
+
+</Libreria>
