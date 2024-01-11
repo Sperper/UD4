@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE Libreria [
-    <!ELEMENT Libreria (libro*)>
-    <!ELEMENT libro (CodigoDeLibro, titulo, editorial, edicion, ISBN, NumeroDePaginas, autor)>
-    <!ELEMENT CodigoDeLibro (#PCDATA)>
-    <!ELEMENT titulo (#PCDATA)>
-    <!ELEMENT editorial (#PCDATA)>
-    <!ELEMENT edicion (#PCDATA)>
-    <!ELEMENT ISBN (#PCDATA)>
-    <!ELEMENT NumeroDePaginas (#PCDATA)>
-    <!ELEMENT autor (#PCDATA)>
-]>
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
 
 <Libreria>
 
