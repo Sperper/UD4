@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Sede">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="codSede" type="xs:string"></xs:element>
+                <xs:element name="nombreEmpleado" type="xs:string"></xs:element>
+                <xs:element name="fechaAlta" type="xs:date"></xs:element>
+                <xs:element name="cliente" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codCliente" type="xs:string"></xs:element>
+                            <xs:element name="descripcion" type="xs:string"></xs:element>
+                            <xs:element name="numeroViviendas" type="xs:int"></xs:element>
+                            <xs:element name="costeViviendas" type="xs:decimal"></xs:element>
+                            <xs:element name="resumenVivienda" type="xs:string"></xs:element>
+                            <xs:element name="plazoAltaHacienda" type="xs:string"></xs:element>
+                        </xs:sequence> 
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
