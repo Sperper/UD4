@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Concesionario.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Concesionario>
+    <coche>
+        <codigoDeCoche>IJCLMNJHG89736589</codigoDeCoche>
+        <marca>Ferrari</marca>
+        <modelo>Ferrari SF90 Stradale</modelo>
+        <matricula>7865 ETF</matricula>
+        <potencia>1000CV</potencia>
+        <plazas>2</plazas>
+        <numeroDePuertas>2</numeroDePuertas>
+    </coche>
+    <coche>
+        <codigoDeCoche>IKCLMNJOG83736589</codigoDeCoche>
+        <marca>Lamborghini</marca>
+        <modelo>Urus S</modelo>
+        <matricula>5287 PDP</matricula>
+        <potencia>666CV</potencia>
+        <plazas>5</plazas>
+        <numeroDePuertas>5</numeroDePuertas>
+    </coche>
+</Concesionario>
