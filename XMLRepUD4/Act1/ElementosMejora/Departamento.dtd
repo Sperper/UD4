@@ -1,0 +1,8 @@
+
+<!ELEMENT Departamento (profesor*)>
+<!ELEMENT profesor (CodigoDeProfesor, nombre, apellidos, email, nrp)>
+<!ELEMENT CodigoDeProfesor (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT nrp (#PCDATA)>

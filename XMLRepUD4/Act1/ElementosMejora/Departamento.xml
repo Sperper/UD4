@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Departamento SYSTEM "Departamento.dtd">
+
+<Departamento>
+
+    <profesor>
+        <CodigoDeProfesor>001-MMM</CodigoDeProfesor>
+        <nombre>Manuel</nombre>
+        <apellidos>Chacón Pérez</apellidos>
+        <email>manchacper@gmail.com</email>
+        <nrp>9788420414065</nrp>
+    </profesor>
+
+    <profesor>
+        <CodigoDeProfesor>002-TTT</CodigoDeProfesor>
+        <nombre>María</nombre>
+        <apellidos>Sánchez López</apellidos>
+        <email>marsanlop@gmail.com</email>
+        <nrp>9788417854317</nrp>
+        
+    </profesor>
+
+    <profesor>
+        <CodigoDeProfesor>003-FFF</CodigoDeProfesor>
+        <nombre>Claudia</nombre>
+        <apellidos>García Fernández</apellidos>
+        <email>clagarfer@gmail.com</email>
+        <nrp>9788408284550</nrp>
+        
+    </profesor>
+
+</Departamento>
