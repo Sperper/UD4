@@ -1,17 +1,1 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Sedes SYSTEM "Clientes.dtd">
-<Sedes>
-    <sede>
-        <codSede>ES1234567</codSede>
-        <nombreEmpleado>Manuel</nombreEmpleado>
-        <fechaAlta>10/01/2024</fechaAlta>
-        <cliente>
-            <codCliente>01</codCliente>
-            <descripcion>solvente</descripcion>
-            <numeroViviendas>1</numeroViviendas>
-            <costeVivienda>164000</costeVivienda>
-            <resumenVivienda>Dos plantas</resumenVivienda>
-            <plazoAltaHacienda>10</plazoAltaHacienda>
-        </cliente>
-    </sede>
-</Sedes>
