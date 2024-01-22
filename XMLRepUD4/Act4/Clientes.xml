@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<Clientes>
+    <sede>
+        <dir1></dir1>
+        <dir2></dir2>
+        <codSede></codSede>
+        <empleado></empleado>
+        <fecha></fecha>
+        <cliente>
+            <codCliente></codCliente>
+            <descripcion></descripcion>
+            <numero></numero>
+            <coste></coste>
+            <resumen></resumen>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+</Clientes>

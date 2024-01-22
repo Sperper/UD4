@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Clientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sede">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dir1" type="xs:string"></xs:element>
+                            <xs:element name="dir2" type="xs:string"></xs:element>
+                            <xs:element name="codSede" type="xs:string"></xs:element>
+                            <xs:element name="empleado" type="xs:string"></xs:element>
+                            <xs:element name="cliente">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codCliente" type="xs:string"></xs:element>
+                                        <xs:element name="descripcion" type="xs:string"></xs:element>
+                                        <xs:element name="numero" type="xs:int"></xs:element>
+                                        <xs:element name="coste" type="xs:decimal"></xs:element>
+                                        <xs:element name="resumen" type="xs:string"></xs:element>
+                                        <xs:element name="plazo" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
