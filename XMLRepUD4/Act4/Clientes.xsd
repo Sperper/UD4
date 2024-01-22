@@ -9,13 +9,14 @@
                             <xs:element name="dir2" type="xs:string"></xs:element>
                             <xs:element name="codSede" type="xs:string"></xs:element>
                             <xs:element name="empleado" type="xs:string"></xs:element>
+                            <xs:element name="fecha" type="xs:string"></xs:element>
                             <xs:element name="cliente">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="codCliente" type="xs:string"></xs:element>
                                         <xs:element name="descripcion" type="xs:string"></xs:element>
-                                        <xs:element name="numero" type="xs:int"></xs:element>
-                                        <xs:element name="coste" type="xs:decimal"></xs:element>
+                                        <xs:element name="numero" type="xs:string"></xs:element>
+                                        <xs:element name="coste" type="xs:string"></xs:element>
                                         <xs:element name="resumen" type="xs:string"></xs:element>
                                         <xs:element name="plazo" type="xs:string"></xs:element>
                                     </xs:sequence>
