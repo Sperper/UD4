@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CFGS SYSTEM "DAM.dtd">
+
+<CFGS>
+    <alumno>
+        <NIF></NIF>
+        <resultado resultado="apto"></resultado>
+        <observaciones></observaciones>
+        <MAC></MAC>
+    </alumno>
+    <alumno>
+        <NIF></NIF>
+        <resultado resultado="noApto"></resultado>
+        <IP></IP>
+    </alumno>
+</CFGS>

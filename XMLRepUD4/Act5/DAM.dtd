@@ -1,0 +1,8 @@
+<!ELEMENT CFGS (alumno*)>
+<!ELEMENT alumno (NIF, resultado, observaciones?, (IP | MAC))>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ATTLIST resultado resultado (apto | noApto) #REQUIRED>
+<!ELEMENT IP (#PCDATA)>
+<!ELEMENT MAC (#PCDATA)>
