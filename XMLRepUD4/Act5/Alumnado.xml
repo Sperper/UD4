@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE CFGS SYSTEM "DAM.dtd">
+<!DOCTYPE CFGS SYSTEM "Alumnado.dtd">
 
 <CFGS>
     <alumno>
