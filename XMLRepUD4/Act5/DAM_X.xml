@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="DAM.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<CFGS>
+    <alumno>
+        <NIF></NIF>
+        <resultado>Apto</resultado>
+        <observaciones></observaciones>
+        <IPMAC>
+            <IP></IP>
+        </IPMAC>
+    </alumno>
+    <alumno>
+        <NIF></NIF>
+        <resultado>No apto</resultado>
+        <IPMAC>
+            <MAC></MAC>
+        </IPMAC>
+    </alumno>
+</CFGS>
