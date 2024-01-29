@@ -1,0 +1,7 @@
+<!ELEMENT CFGSDAM (modulos*)>
+<!ELEMENT modulos (nombre, contenidos*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (UD*)>
+<!ELEMENT UD (tipo, descripcion)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

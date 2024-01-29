@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CFGSDAM SYSTEM "DAM.dtd">
+<CFGSDAM>
+    <modulos>
+        <nombre></nombre>
+        <contenidos>
+            <UD>
+                <tipo></tipo>
+                <descripcion></descripcion>
+            </UD>
+        </contenidos>
+    </modulos>
+</CFGSDAM>
