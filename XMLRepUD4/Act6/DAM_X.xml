@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="DAM.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<CFGSDAM>
+    <modulos>
+        <nombre></nombre>
+        <contenidos>
+            <UD>
+                <tipo></tipo>
+                <descripcion></descripcion>
+            </UD>
+        </contenidos>
+    </modulos>
+</CFGSDAM>

@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CFGSDAM">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modulos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre"></xs:element>
+                            <xs:element name="contenidos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="UD">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tipo"></xs:element>
+                                                    <xs:element name="descripcion"></xs:element> 
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
