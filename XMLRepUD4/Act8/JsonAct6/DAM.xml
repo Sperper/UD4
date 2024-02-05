@@ -1,0 +1,25 @@
+{
+  "CFGSDAM": {
+    "modulos": [
+      {
+        "nombre": [
+          ""
+        ],
+        "contenidos": [
+          {
+            "UD": [
+              {
+                "tipo": [
+                  ""
+                ],
+                "descripcion": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
