@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Editorial.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Editorial>
+    <cabecera>
+        <descripcion>informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+        <fecha>2009/12/30</fecha>
+    </cabecera>
+    <datos>
+        <region>
+            <zona>Norte</zona>
+            <trimestre>
+                <LibroVendidos>24000</LibroVendidos>
+            </trimestre>
+        </region>
+    </datos>
+</Editorial>

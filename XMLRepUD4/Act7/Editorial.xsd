@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Editorial">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cabecera">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="descripcion" type="xs:string "></xs:element>
+                            <xs:element name="fecha" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="region">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="zona" type="xs:string"></xs:element>
+                                        <xs:element name="trimestre">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="LibroVendidos"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
