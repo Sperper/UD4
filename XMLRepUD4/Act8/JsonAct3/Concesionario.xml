@@ -1,0 +1,52 @@
+{
+  "Concesionario": {
+    "coche": [
+      {
+        "codigoDeCoche": [
+          "IJCLMNJHG89736589"
+        ],
+        "marca": [
+          "Ferrari"
+        ],
+        "modelo": [
+          "Ferrari SF90 Stradale"
+        ],
+        "matricula": [
+          "7865 ETF"
+        ],
+        "potencia": [
+          "1000CV"
+        ],
+        "plazas": [
+          "2"
+        ],
+        "numeroDePuertas": [
+          "2"
+        ]
+      },
+      {
+        "codigoDeCoche": [
+          "IKCLMNJOG83736589"
+        ],
+        "marca": [
+          "Lamborghini"
+        ],
+        "modelo": [
+          "Urus S"
+        ],
+        "matricula": [
+          "5287 PDP"
+        ],
+        "potencia": [
+          "666CV"
+        ],
+        "plazas": [
+          "5"
+        ],
+        "numeroDePuertas": [
+          "5"
+        ]
+      }
+    ]
+  }
+}
