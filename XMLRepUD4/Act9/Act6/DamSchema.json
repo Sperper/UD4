@@ -1,0 +1,82 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "CFGSDAM": {
+        "type": "object",
+        "properties": {
+          "modulos": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "contenidos": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "UD": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "tipo": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  },
+                                  "descripcion": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "tipo",
+                                  "descripcion"
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "UD"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "contenidos"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "modulos"
+        ]
+      }
+    },
+    "required": [
+      "CFGSDAM"
+    ]
+  }

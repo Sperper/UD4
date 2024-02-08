@@ -1,0 +1,45 @@
+{
+  "Clientes": {
+    "sede": [
+      {
+        "dir1": [
+          ""
+        ],
+        "dir2": [
+          ""
+        ],
+        "codSede": [
+          ""
+        ],
+        "empleado": [
+          ""
+        ],
+        "fecha": [
+          ""
+        ],
+        "cliente": [
+          {
+            "codCliente": [
+              ""
+            ],
+            "descripcion": [
+              ""
+            ],
+            "numero": [
+              ""
+            ],
+            "coste": [
+              ""
+            ],
+            "resumen": [
+              ""
+            ],
+            "plazo": [
+              ""
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "CFGS": {
+        "type": "object",
+        "properties": {
+          "alumno": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "resultado": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "$": {
+                            "type": "object",
+                            "properties": {
+                              "resultado": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "resultado"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "$"
+                        ]
+                      }
+                    ]
+                  },
+                  "observaciones": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "MAC": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "resultado",
+                  "observaciones",
+                  "MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "resultado": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "$": {
+                            "type": "object",
+                            "properties": {
+                              "resultado": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "resultado"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "$"
+                        ]
+                      }
+                    ]
+                  },
+                  "IP": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "resultado",
+                  "IP"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "alumno"
+        ]
+      }
+    },
+    "required": [
+      "CFGS"
+    ]
+  }

@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "Clientes": {
+        "type": "object",
+        "properties": {
+          "sede": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "dir1": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "dir2": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "codSede": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "empleado": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "fecha": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "cliente": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "codCliente": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "descripcion": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "numero": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "coste": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "resumen": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "plazo": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "codCliente",
+                          "descripcion",
+                          "numero",
+                          "coste",
+                          "resumen",
+                          "plazo"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "dir1",
+                  "dir2",
+                  "codSede",
+                  "empleado",
+                  "fecha",
+                  "cliente"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "sede"
+        ]
+      }
+    },
+    "required": [
+      "Clientes"
+    ]
+  }

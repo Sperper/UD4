@@ -1,0 +1,39 @@
+{
+  "CFGS": {
+    "alumno": [
+      {
+        "NIF": [
+          ""
+        ],
+        "resultado": [
+          {
+            "$": {
+              "resultado": "apto"
+            }
+          }
+        ],
+        "observaciones": [
+          ""
+        ],
+        "MAC": [
+          ""
+        ]
+      },
+      {
+        "NIF": [
+          ""
+        ],
+        "resultado": [
+          {
+            "$": {
+              "resultado": "noApto"
+            }
+          }
+        ],
+        "IP": [
+          ""
+        ]
+      }
+    ]
+  }
+}

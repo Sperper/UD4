@@ -1,0 +1,468 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "Informe": {
+        "type": "object",
+        "properties": {
+          "cabecera": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "descripcion": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "fechaInforme": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "descripcion",
+                  "fechaInforme"
+                ]
+              }
+            ]
+          },
+          "datos": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "region": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "zona": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "trimestre": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "zona",
+                          "trimestre"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "zona": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "trimestre": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "zona",
+                          "trimestre"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "zona": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          },
+                          "trimestre": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "$": {
+                                    "type": "object",
+                                    "properties": {
+                                      "numero": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "numero"
+                                    ]
+                                  },
+                                  "librosVendidos": {
+                                    "type": "array",
+                                    "items": [
+                                      {
+                                        "type": "string"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "required": [
+                                  "$",
+                                  "librosVendidos"
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "zona",
+                          "trimestre"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "region"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "cabecera",
+          "datos"
+        ]
+      }
+    },
+    "required": [
+      "Informe"
+    ]
+  }
