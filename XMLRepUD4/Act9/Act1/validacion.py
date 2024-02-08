@@ -40,7 +40,7 @@ schema = {
 
 # Archivo JSON a validar
 archivo_json = '''
-"codigoDeLibro": 9788420414065,
+"codigoDeLibro": "9788420414065",
     "titulo": "La verdad sobre el caso Harry Quebert",
     "editorial": "ALFAGUARA",
     "edicion": 2013,
