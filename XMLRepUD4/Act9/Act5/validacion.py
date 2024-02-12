@@ -92,7 +92,8 @@ schema = {
                             "type": "object",
                             "properties": {
                               "resultado": {
-                                "type": "string"
+                                "type": "string",
+                                "minlenght":1
                               }
                             },
                             "required": [

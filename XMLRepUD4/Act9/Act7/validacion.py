@@ -3,7 +3,7 @@ from jsonschema import validate
 
 # Definir el esquema
 schema = {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "numeroschema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
       "Informe": {
@@ -33,7 +33,7 @@ schema = {
                   }
                 },
                 "required": [
-                  "descripcion"
+                  "descripcion",
                   "fechaInforme"
                 ]
               }
@@ -65,7 +65,7 @@ schema = {
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -86,14 +86,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -114,14 +114,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -142,14 +142,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -170,7 +170,7 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               }
@@ -199,7 +199,7 @@ schema = {
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -220,14 +220,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -248,14 +248,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -276,14 +276,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -304,7 +304,7 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               }
@@ -333,7 +333,7 @@ schema = {
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -354,14 +354,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -382,14 +382,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -410,14 +410,14 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               },
                               {
                                 "type": "object",
                                 "properties": {
-                                  "$": {
+                                  "numero": {
                                     "type": "object",
                                     "properties": {
                                       "numero": {
@@ -438,7 +438,7 @@ schema = {
                                   }
                                 },
                                 "required": [
-                                  "$",
+                                  "numero",
                                   "librosVendidos"
                                 ]
                               }
@@ -494,7 +494,7 @@ archivo_json = '''
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -502,7 +502,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -510,7 +510,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -518,7 +518,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [
@@ -533,7 +533,7 @@ archivo_json = '''
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -541,7 +541,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -549,7 +549,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -557,7 +557,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [
@@ -572,7 +572,7 @@ archivo_json = '''
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -580,7 +580,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -588,7 +588,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -596,7 +596,7 @@ archivo_json = '''
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [
