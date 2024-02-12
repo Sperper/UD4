@@ -19,7 +19,7 @@
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -35,7 +35,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -43,7 +43,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [
@@ -58,7 +58,7 @@
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -66,7 +66,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -74,7 +74,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -82,7 +82,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [
@@ -97,7 +97,7 @@
             ],
             "trimestre": [
               {
-                "$": {
+                "numero": {
                   "numero": "1"
                 },
                 "librosVendidos": [
@@ -105,7 +105,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "2"
                 },
                 "librosVendidos": [
@@ -113,7 +113,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "3"
                 },
                 "librosVendidos": [
@@ -121,7 +121,7 @@
                 ]
               },
               {
-                "$": {
+                "numero": {
                   "numero": "4"
                 },
                 "librosVendidos": [

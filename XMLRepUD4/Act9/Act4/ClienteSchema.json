@@ -106,26 +106,12 @@
                             ]
                           }
                         },
-                        "required": [
-                          "codCliente",
-                          "descripcion",
-                          "numero",
-                          "coste",
-                          "resumen",
-                          "plazo"
-                        ]
+                        "required": ["codCliente","descripcion","numero","coste","resumen","plazo"]
                       }
                     ]
                   }
                 },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "codSede",
-                  "empleado",
-                  "fecha",
-                  "cliente"
-                ]
+                "required": ["dir1","dir2","codSede","empleado","fecha","cliente"]
               }
             ]
           }
